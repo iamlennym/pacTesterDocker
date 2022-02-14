@@ -69,6 +69,7 @@ function FindProxyForURL(url, host) {
 	//	Also bypass plain host names (without domain).
 	//	Also possible to match direct host and domain like this : (host == "host.example.com") ||
 	if ( isPlainHostName(host) || 
+		shExpMatch(host, "go.dev") ||
 		shExpMatch(host, "*.bank3d.ng") ||
 		shExpMatch(host, "*.citrix.local") ||
 		shExpMatch(host, "*.cp.thomsonreuters.com") ||

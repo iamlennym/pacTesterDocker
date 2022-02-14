@@ -1,6 +1,6 @@
 
 # pacTesterDocker
-Dockerized version of pactester
+Dockerized version of pactester (https://github.com/manugarg/pacparser)
 
 ## Steps Required ##
 
